@@ -1,8 +1,7 @@
-<!-- DIGITAL CITIZENSHIP RESOURCE: CAN AI BE FAIR (INTERACTIVE VERSION) -->
+<!-- DIGITAL CITIZENSHIP RESOURCE: CAN AI BE FAIR (FINAL HD VERSION) -->
 <section id="ai-fairness-resource">
 
     <style>
-        /* ===== BASIC THEME ===== */
         #ai-fairness-resource {
             font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             color: #0f172a;
@@ -38,21 +37,21 @@
             margin: 1.5rem 0;
         }
 
+        .section-box {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
         .callout {
             background-color: #f8fafc;
             border-left: 4px solid #2563eb;
             padding: 1rem;
             border-radius: 8px;
             margin-top: 1rem;
-        }
-
-        .section-box {
-            background-color: #ffffff;
-            border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-            padding: 1.25rem 1.5rem;
-            margin-bottom: 1.5rem;
         }
 
         .reflect {
@@ -63,21 +62,6 @@
             margin-top: 1rem;
         }
 
-        footer {
-            margin-top: 2rem;
-            text-align: center;
-            font-weight: 600;
-            color: #1e293b;
-        }
-
-        a {
-            color: #2563eb;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
         .quiz {
             background: #f8fafc;
             border: 1px solid #e2e8f0;
@@ -86,11 +70,7 @@
             margin-top: 1.5rem;
         }
 
-        .quiz h4 {
-            margin-top: 0;
-            color: #003366;
-        }
-
+        .quiz h4 { color: #003366; margin-top: 0; }
         .quiz button {
             background: #2563eb;
             color: #fff;
@@ -100,55 +80,55 @@
             cursor: pointer;
             margin-top: 0.75rem;
         }
+        .quiz button:hover { background: #1d4ed8; }
 
-        .quiz button:hover {
-            background: #1d4ed8;
-        }
-
-        .result {
-            font-weight: 600;
-            margin-top: 0.5rem;
-        }
-
+        .result { font-weight: 600; margin-top: 0.5rem; }
         .correct { color: #15803d; }
         .incorrect { color: #b91c1c; }
 
-        iframe {
-            border-radius: 12px;
-            width: 100%;
-            height: 315px;
-            margin-top: 1rem;
+        .support-box {
+            background-color: #f8fafc;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+            padding: 1rem;
+        }
+
+        a { color: #2563eb; }
+        a:hover { text-decoration: underline; }
+
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-weight: 600;
+            color: #1e293b;
         }
 
         @media (max-width: 768px) {
-            #ai-fairness-resource {
-                padding: 1rem;
-            }
+            #ai-fairness-resource { padding: 1rem; }
         }
     </style>
-
-    <!-- ===== CONTENT ===== -->
-
+    
     <div class="section-box">
         <h3>Why Are We Learning This?</h3>
         <p>
-            Artificial intelligence (AI) tools create text and pictures by learning from large collections of online data.
-            If that data includes stereotypes or missing voices, AI may unintentionally repeat those patterns.
-            This activity helps you see, question and redesign unfair AI results so that technology better represents everyone.
+            Artificial intelligence (AI) tools create text and pictures by learning from online data.
+            If that data includes stereotypes or missing voices, AI might unintentionally repeat them.
+            This activity helps you <strong>see, question, and redesign</strong> unfair AI results so that technology better represents everyone.
         </p>
 
-        <!-- Optional media: short explainer -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/59bMh59JQDo?si=r1xXeE5qDHaYfB1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p style="text-align:center; margin-top:1rem;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/59bMh59JQDo?si=cG43NYUtnvuwlA6L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p>
     </div>
 
     <div class="section-box">
         <h3>1. Spot the Bias</h3>
         <p>
-            Use <a href="https://www.canva.com/ai-image-generator/" target="_blank" rel="noopener"><strong>Canva Text-to-Image</strong></a>
-            to explore how AI represents people. If your teacher allows, you may also compare it with
+            Use <a href="https://www.canva.com/text-to-image/" target="_blank" rel="noopener"><strong>Canva Text-to-Image</strong></a>
+            to explore how AI represents people. If your teacher allows, compare it with
             <a href="https://www.bing.com/create" target="_blank" rel="noopener"><strong>Bing Image Creator</strong></a>.
         </p>
-        <p>Follow these steps:</p>
+
         <ol>
             <li>Enter one or more of these prompts and generate at least two images for each:</li>
             <ul>
@@ -158,16 +138,17 @@
                 <li>"a student studying at home"</li>
                 <li>"a nurse helping a patient"</li>
             </ul>
-            <li>Look carefully at the results and record your observations:</li>
+
+            <li>Look closely at the results and record your observations:</li>
             <ul>
                 <li>Who appears most often, and who is missing?</li>
-                <li>Do the images show stereotypes about gender, culture or jobs?</li>
+                <li>Do the images show stereotypes about gender, culture or roles?</li>
                 <li>What would a fairer image include?</li>
             </ul>
         </ol>
 
         <div class="callout">
-            <strong>Remember:</strong> AI does not think. It predicts what a "typical" image might look like based on human data.
+            <strong>Remember:</strong> AI doesn't think - it predicts what a "typical" image might look like using human data.
             If those patterns are biased, the results can be too.
         </div>
     </div>
@@ -176,11 +157,11 @@
         <h3>2. Why Does Bias Happen?</h3>
         <p>AI bias can appear for several reasons:</p>
         <ul>
-            <li><strong>Biased data:</strong> Most training images come from only one group or culture.</li>
-            <li><strong>Design choices:</strong> Algorithms might value popularity or speed instead of fairness.</li>
-            <li><strong>Human influence:</strong> Prompts and user feedback can add new bias.</li>
+            <li><strong>Biased data:</strong> Most training images come from one culture or group.</li>
+            <li><strong>Design choices:</strong> Algorithms often value speed or popularity instead of fairness.</li>
+            <li><strong>Human influence:</strong> Prompts and feedback can reinforce bias.</li>
         </ul>
-        <p>Understanding these reasons helps you think critically about how technology shapes what you see online.</p>
+        <p>Knowing this helps you think critically about how technology shapes what you see online.</p>
     </div>
 
     <div class="section-box">
@@ -192,9 +173,8 @@
             <li>Redesign or describe a fairer version that includes more diversity.</li>
         </ol>
         <p>
-            You may use AI tools for idea generation or proofreading, but you remain the author.
-            Add a note at the bottom of your work:
-            <em>"AI assistance used for idea generation only."</em>
+            You may use AI tools for ideas or proofreading, but you remain the author.
+            Add a line at the bottom: <em>"AI assistance used for idea generation only."</em>
         </p>
     </div>
 
@@ -202,7 +182,7 @@
         <h3>4. Reflect and Share</h3>
         <p>
             Share your poster in the class <strong>AI Fairness Gallery</strong>.
-            As you view classmates' work, discuss:
+            As you review classmates' work, discuss:
         </p>
         <ul>
             <li>How did their redesign make the image more inclusive?</li>
@@ -215,16 +195,16 @@
         </div>
     </div>
 
-    <div class="section-box">
+    <div class="section-box support-box">
         <h3>Support and Extension</h3>
         <ul>
-            <li><strong>Need help?</strong> Use the class vocabulary cards.</li>
-            <li><strong>Need a challenge?</strong> Compare Canva Text-to-Image with Bing Image Creator and explain which produces fairer results.</li>
-            <li><strong>EAL/D tip:</strong> Use translation tools to check key words, but write your final reflection in English.</li>
+            <li><strong>Need help?</strong> Use the class vocabulary cards to clarify new terms.</li>
+            <li><strong>Need a challenge?</strong> Compare Canva Text-to-Image with Bing Image Creator and explain which produces fairer results and why.</li>
+            <li><strong>EAL/D tip:</strong> You may translate key words to build understanding, but express your final work in English.</li>
         </ul>
     </div>
 
-    <div class="quiz">
+    <div class="section-box quiz">
         <h4>Quick Check</h4>
         <p>1. Which of the following can cause AI bias?</p>
         <label><input type="radio" name="q1" value="A"> Computers choosing to be unfair.</label><br>
@@ -232,7 +212,7 @@
         <label><input type="radio" name="q1" value="C"> Random technical errors.</label>
         <div class="result" id="r1"></div>
 
-        <p>2. What should you write at the bottom of your Canva poster if AI helped you brainstorm?</p>
+        <p>2. What should you write at the bottom of your poster if AI helped you brainstorm?</p>
         <label><input type="radio" name="q2" value="A"> "Made completely by AI."</label><br>
         <label><input type="radio" name="q2" value="B"> "AI assistance used for idea generation only."</label><br>
         <label><input type="radio" name="q2" value="C"> Nothing, credit is not needed.</label>
@@ -260,7 +240,7 @@
                     result.textContent = "Correct!";
                     result.className = "result correct";
                 } else {
-                    result.textContent = "Incorrect — review the section above.";
+                    result.textContent = "Incorrect - review the section above.";
                     result.className = "result incorrect";
                 }
             });
